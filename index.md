@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing
+title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing"
 authors:
     Junseong Shin, Seungwoo Chung, Yunjeong Ynag, Tae Hyun Kim
 affiliations:
@@ -10,6 +10,8 @@ affiliations:
 paper: 
 code: https://github.com/cloor/HazeFlow
 ---
+
+![ODE](/static/image/ASM5.pdf)
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">

@@ -29,10 +29,16 @@ Through extensive experiments, we demonstrate that HazeFlow achieves state-of-th
 </div>
 
 ---
-![](/static/image/unpaired.png)
+<div style="text-align: center;">
+  <img src="/static/image/unpaired.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+</div>
 ---
+
 ## Key Ideas 
-![ASM](/static/image/ASM6.png)
+<div style="text-align: center;">
+  <img src="/static/image/ASM6.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+</div>
+
 Illustration of dehazing trajectory of hazy image IT as transmission map T gradually increases from 0 to 1.
 
 ## Method 
@@ -42,10 +48,14 @@ Illustration of dehazing trajectory of hazy image IT as transmission map T gradu
 ## Tables 
 
 ### Unpaired Dataset 
-![](/static/image/main_table.png)
+<div style="text-align: center;">
+  <img src="/static/image/main_table.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+</div>
 
 ### Paired DAtaset 
-![](/static/image/paired_table.png)
+<div style="text-align: center;">
+  <img src="/static/image/paired_table.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+</div>
 
 
 ## Citation

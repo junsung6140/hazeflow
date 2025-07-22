@@ -30,13 +30,13 @@ Through extensive experiments, we demonstrate that HazeFlow achieves state-of-th
 
 ---
 <div style="text-align: center;">
-  <img src="/static/image/unpaired.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+  <img src="./static/image/unpaired.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
 </div>
 ---
 
 ## Key Ideas 
 <div style="text-align: center;">
-  <img src="/static/image/ASM6.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+  <img src="./static/image/ASM6.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
 </div>
 
 Illustration of dehazing trajectory of hazy image IT as transmission map T gradually increases from 0 to 1.
@@ -45,16 +45,20 @@ Illustration of dehazing trajectory of hazy image IT as transmission map T gradu
 
 ## Non-Homogeneous Haze Generation
 
+<div style="text-align: center;">
+  <img src="./static/image/NH_examples.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+</div>
+
 ## Tables 
 
 ### Unpaired Dataset 
 <div style="text-align: center;">
-  <img src="/static/image/main_table.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+  <img src="./static/image/main_table.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
 </div>
 
 ### Paired DAtaset 
 <div style="text-align: center;">
-  <img src="/static/image/paired_table.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+  <img src="./static/image/paired_table.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
 </div>
 
 

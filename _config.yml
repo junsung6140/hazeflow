@@ -1,30 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# ─────────────────────────────────────────────────────────
+# Site basics
+# ─────────────────────────────────────────────────────────
+title: "HazeFlow"
+tagline: "Revisit Haze Physical Model as ODE & Non-Homogeneous Haze Generation"
+description: "HazeFlow: ODE-based real-world dehazing and realistic non-homogeneous haze generation (ICCV 2025)."
+lang: en
+timezone: Asia/Seoul
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# 본인 깃허브 페이지 주소로 바꾸세요.
+# # 1) user.github.io 저장소(루트)라면:
+# url: "https://junsung6140.github.io"
+# baseurl: ""   # 루트면 빈 문자열
 
+2) 프로젝트 페이지(user.github.io/REPO)라면:
+url: "https://junsung6140.github.io"
+baseurl: "/hazeflow"
+
+# ─────────────────────────────────────────────────────────
 # Build settings
+# ─────────────────────────────────────────────────────────
 markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# GitHub Pages에서 허용되는 SEO 플러그인
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 사이트맵/피드 파일 경로(기본값 사용 가능)
+sitemap:
+  exclude: ["assets/lib/"]   # 필요 시 제외할 경로
+  filename: "sitemap.xml"
+
+# SEO 태그 기본 메타
+author:
+  name: "Junseong Shin, Seungwoo Chung"
+  twitter: ""   # 있다면 입력
+  github: "YOUR_USERNAME"
+
+# 구글 소유권 확인(서치 콘솔에서 발급받은 토큰 넣기)
+google_site_verification: "PASTE_SEARCH_CONSOLE_TOKEN_HERE"
+
+# 구글 애널리틱스(선택)
+# google_analytics: "G-XXXXXXXXXX"
+
+# ─────────────────────────────────────────────────────────
+# Excludes / Includes
+# ─────────────────────────────────────────────────────────
+# Jekyll이 처리하지 않을 항목
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md
+  - package.json
+  - package-lock.json
+
+# ─────────────────────────────────────────────────────────
+# Defaults (옵션: 포스트/페이지 기본 front matter)
+# ─────────────────────────────────────────────────────────
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "project_page"
+      seo:
+        type: "WebPage"
+
+# ─────────────────────────────────────────────────────────
+# Optional: RSS가 필요하면 아래 주석 해제(플러그인 추가 필요)
+# plugins:
+#   - jekyll-feed
+# feed:
+#   path: feed.xml

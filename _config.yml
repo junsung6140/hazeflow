@@ -12,7 +12,7 @@ timezone: Asia/Seoul
 # url: "https://junsung6140.github.io"
 # baseurl: ""   # 루트면 빈 문자열
 
-2) 프로젝트 페이지(user.github.io/REPO)라면:
+# 2) 프로젝트 페이지(user.github.io/REPO)라면:
 url: "https://junsung6140.github.io"
 baseurl: "/hazeflow"
 
@@ -40,7 +40,7 @@ author:
   github: "YOUR_USERNAME"
 
 # 구글 소유권 확인(서치 콘솔에서 발급받은 토큰 넣기)
-google_site_verification: "PASTE_SEARCH_CONSOLE_TOKEN_HERE"
+google_site_verification: "pqhRMGnbKR4V8kFK5hnTEMvT75GPqAlpTHt6TO25TEw"
 
 # 구글 애널리틱스(선택)
 # google_analytics: "G-XXXXXXXXXX"

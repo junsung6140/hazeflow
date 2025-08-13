@@ -4,7 +4,7 @@ permalink: /
 
 title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing"
 authors:
-    Junseong Shin, Seungwoo Chung, Yunjeong Ynag, Tae Hyun Kim
+    Junseong Shin*, Seungwoo Chung*, Yunjeong Yang, Tae Hyun Kim
 affiliations:
     VILAB, Hanyang University
 paper: 
@@ -50,6 +50,15 @@ Illustration of dehazing trajectory of hazy image $I_T$ as transmission map T gr
 </div>
 
 ## Architecture
+
+<div style="text-align: center;">
+  <img src="./static/image/figure2.png" alt="Unpaired Dataset" style="max-width: 100%; height: auto;">
+</div>
+
+Overview of our proposed method, illustrating (a) HazeFlow and (b) Transmission Network.
+Our HazeFlow consists of a U-Net and a T-Net.
+The U-Net takes the hazy image and transmission map derived from the hazy image as inputs, while the T-Net processes the transmission map. 
+Input transmission map T DCP is estimated using DCP [22]. T-Net then embeds the transmission feature, which is combined with the U-Net to predict the dehazed image.
 
 ## Results
 

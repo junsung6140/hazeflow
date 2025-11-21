@@ -7,7 +7,8 @@ authors:
     Junseong Shin*, Seungwoo Chung*, Yunjeong Yang, Tae Hyun Kim
 affiliations:
     VILAB, Hanyang University
-paper: https://arxiv.org/abs/2509.18190
+arxiv: https://arxiv.org/abs/2509.18190
+paper: https://openaccess.thecvf.com/content/ICCV2025/papers/Shin_HazeFlow_Revisit_Haze_Physical_Model_as_ODE_and_Non-Homogeneous_Haze_ICCV_2025_paper.pdf
 code: https://github.com/cloor/HazeFlow
 ---
 

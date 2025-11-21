@@ -7,7 +7,7 @@ authors:
     Junseong Shin*, Seungwoo Chung*, Yunjeong Yang, Tae Hyun Kim
 affiliations:
     VILAB, Hanyang University
-paper: 
+paper: https://arxiv.org/abs/2509.18190
 code: https://github.com/cloor/HazeFlow
 ---
 

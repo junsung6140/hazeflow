@@ -4,9 +4,9 @@ permalink: /
 
 title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing"
 authors: [
-  "<a href='https://junsung6140.github.io/'>Junseong Shin*</a>",
-  "<a href='https://cloor.github.io/'>Seungwoo Chung*</a>",
-  "Yunjeong Yang",
+  "<a href='https://junsung6140.github.io/'>Junseong Shin*, </a>",
+  "<a href='https://cloor.github.io/'>Seungwoo Chung*, </a>",
+  "Yunjeong Yang, ",
   "Tae Hyun Kim"
 ]
 affiliations:
@@ -16,15 +16,6 @@ paper: https://openaccess.thecvf.com/content/ICCV2025/papers/Shin_HazeFlow_Revis
 code: https://github.com/cloor/HazeFlow
 ---
 
-<!-- 저자 이름 + 링크 -->
-<p style="text-align: center; font-size: 1.05rem;">
-  <a href="https://junsung6140.github.io/">Junseong Shin*</a>,
-  <a href="https://cloor.github.io/">Seungwoo Chung*</a>,
-  Yunjeong Yang,
-  Tae Hyun Kim
-  <br/>
-  VILAB, Hanyang University
-</p>
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">

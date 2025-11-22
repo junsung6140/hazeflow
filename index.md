@@ -4,7 +4,7 @@ permalink: /
 
 title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing"
 authors:
-    Junseong Shin*, Seungwoo Chung*, Yunjeong Yang, Tae Hyun Kim
+    [Junseong Shin*, Seungwoo Chung*, Yunjeong Yang, Tae Hyun Kim]
 affiliations:
     VILAB, Hanyang University
 arxiv: https://arxiv.org/abs/2509.18190

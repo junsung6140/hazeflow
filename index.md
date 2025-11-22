@@ -11,6 +11,8 @@ authors: [
 ]
 affiliations:
     VILAB, Hanyang University
+conference: "<span style='font-weight:600;'>ICCV 2025</span>"
+
 arxiv: https://arxiv.org/abs/2509.18190
 paper: https://openaccess.thecvf.com/content/ICCV2025/papers/Shin_HazeFlow_Revisit_Haze_Physical_Model_as_ODE_and_Non-Homogeneous_Haze_ICCV_2025_paper.pdf
 code: https://github.com/cloor/HazeFlow

@@ -3,8 +3,12 @@ layout: project_page
 permalink: /
 
 title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing"
-authors:
-    [Junseong Shin*, Seungwoo Chung*, Yunjeong Yang, Tae Hyun Kim]
+authors: [
+  "<a href='https://junsung6140.github.io/'>Junseong Shin*</a>",
+  "<a href='https://cloor.github.io/'>Seungwoo Chung*</a>",
+  "Yunjeong Yang",
+  "Tae Hyun Kim"
+]
 affiliations:
     VILAB, Hanyang University
 arxiv: https://arxiv.org/abs/2509.18190

@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing [ICCV 2025]"
+title: "HazeFlow: Revisit Haze Physical Model as ODE and Non-Homogeneous Haze Generation for Real-World Dehazing <br>[ICCV 2025]"
 authors: [
   "<a href='https://junsung6140.github.io/'>Junseong Shin*, </a>",
   "<a href='https://cloor.github.io/'>Seungwoo Chung*, </a>",
